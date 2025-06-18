@@ -41,7 +41,7 @@ class DesktopPet(QWidget):
    # 托盘初始化
     def initPall(self):
         # 导入托盘图标
-        icons = os.path.join(os.path.dirname(__file__), 'resource','icons','icon.png')
+        icons = os.path.join(os.path.dirname(__file__), 'resource','icons','icon.ico')
         # 设置右键显示最小化的菜单
         #菜单退出，点击后调用quit函数
         quit_action = QAction('告别', self, triggered=self.quit)
